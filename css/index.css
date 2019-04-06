@@ -8,11 +8,11 @@
 .mainline {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    font-size:100px;
+    font-size:7em;
 }
 
 .tagline {
-    font-size:30px;
+    font-size:2em;
     font-family: 'IBM Plex Sans', sans-serif;
     text-align: center
 }
