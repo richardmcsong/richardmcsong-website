@@ -1,0 +1,18 @@
+.center-screen {
+    transform: translate(-50%, -50%); /* places things at centre point instead of top left*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.mainline {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size:100px;
+}
+
+.tagline {
+    font-size:30px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center
+}
