@@ -36,7 +36,7 @@ export default async function loadTable(collectionBlock: any, isPosts = false) {
         }
         return item
       })
-      if (val.length == 1) {
+      if (val && val.length == 1) {
         val = val[0]
       }
       // authors and blocks are centralized
