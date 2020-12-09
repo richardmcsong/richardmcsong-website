@@ -1,0 +1,54 @@
+.centerModule {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.inner {
+  height:auto;
+}
+
+.name {
+  font-size: 7em;
+  margin: auto;
+  font-weight: 400;
+}
+.tagline {
+  margin: auto;
+  font-size:2em;
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-align: center;
+  font-weight: 400;
+}
+
+.icon {
+  padding: 3px 3px;
+}
+
+
+@media (max-width: 500px){
+    .inner {
+      width: 100%;
+    }
+    .name {
+      font-size: 25vw;
+    }
+    .taglien {
+      font-size: 8vw;
+    }
+  } 
+
+.navButtonHolder {
+  text-align: center;
+  & > * {
+    margin: 1%!important;
+  }
+  & > *:hover {
+    color: #aa0000;
+  }
+}
+
+.contactHolder {
+  margin: 1%
+}
