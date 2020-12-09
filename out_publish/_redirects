@@ -1,0 +1,9 @@
+# Next-on-Netlify Redirects
+/_next/data/PM-eVhKwoaZblQCky24sm/blog.json  /.netlify/functions/next_blog  200
+/_next/data/PM-eVhKwoaZblQCky24sm/blog/kubernetes-the-automated-jira.json  /.netlify/functions/next_blog_slug  200
+/api/asset  /.netlify/functions/next_api_asset  200
+/api/clear-preview  /.netlify/functions/next_api_clearpreview  200
+/api/preview  /.netlify/functions/next_api_preview  200
+/api/preview-post  /.netlify/functions/next_api_previewpost  200
+/blog  /.netlify/functions/next_blog  200
+/blog/kubernetes-the-automated-jira  /.netlify/functions/next_blog_slug  200
